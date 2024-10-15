@@ -1,0 +1,45 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.app {
+  @apply flex justify-center text-sm;
+}
+
+.app-container {
+  @apply w-full md:w-[70%] min-h-screen p-3 bg-gray-300;
+}
+
+.app-header {
+  @apply w-full flex justify-between items-center;
+}
+
+.main-header {
+  @apply text-xl text-purple-500 my-2;
+}
+
+.agp-container {
+  @apply w-full bg-white rounded-lg p-3 space-y-3;
+}
+
+.card {
+  @apply w-full bg-white border border-gray-200 rounded-2xl min-h-44 overflow-hidden;
+}
+
+.card-header {
+  @apply bg-gray-200 py-2 px-3 font-bold text-lg;
+}
+
+.card-body {
+  @apply p-3;
+}
+
+.daily-profiles {
+  @apply w-full h-auto flex overflow-x-auto sm:overflow-hidden pl-10;
+}
+
+.daily-profile {
+  @apply max-h-[75px] min-h-[50px] w-[120px] sm:w-[14.2%] flex-grow relative border border-zinc-300 bg-transparent z-0;
+}
