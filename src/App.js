@@ -43,7 +43,7 @@ function App() {
             </div>
 
             {/* Glucose METRICS */}
-            <div className="space-y-3 w-[55%]">
+            <div className="space-y-3 w-[45%]">
               {/* TEST PATIENT  */}
 
               <div className="card">
